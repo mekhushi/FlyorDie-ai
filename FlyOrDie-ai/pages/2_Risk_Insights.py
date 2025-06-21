@@ -9,7 +9,7 @@ st.caption("Because knowing how close to death your flight is should be a visual
 
 # --- Load Data ---
 try:
-    df = pd.read_csv(r"C:\Users\Khushi Singh\Desktop\FlyOrDie-ai\data\flight_sample_2022-09-01.csv.csv")
+    df = pd.read_csv("FlyOrDie-ai/data/flight_sample_2022-09-01.csv.csv")
 except Exception as e:
     st.error(f"⚠️ Could not load the dataset: {e}")
     st.stop()
