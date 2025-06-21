@@ -9,7 +9,7 @@ st.caption("Tell us about your flight... so we can tell you how badly it might e
 
 # --- Load Model ---
 try:
-    model = joblib.load("model.pkl")
+    model = joblib.load("FlyOrDie-ai/model.pkl")
 except:
     st.error("❌ Model file not found. Make sure 'model.pkl' is in the correct folder.")
     st.stop()
